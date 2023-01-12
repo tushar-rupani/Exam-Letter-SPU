@@ -1,0 +1,66 @@
+<div id="content">
+   Confidential Examination Order Letter
+   In all future correspondence please mention the examination and the subject in which you are appointed & Reference No. mentioned below:
+
+
+   SARDAR PATEL UNIVERSITY
+
+   Reference No. : <?php echo $_POST['reference']; ?>
+   <!-- Exam Name : Master of Computer Science (Information Technology) 	(MSc-IT) -->
+
+   PLEASE SEND YOUR ACCEPTANCE TO THE CONVENER ALSO.
+
+   VALLABH VIDYANAGAR – 88120.
+   (Dist. Anand)
+
+   <?php echo date("d-m-Y"); ?>
+   <br>
+   To,
+   <!-- examiner names -->
+   <?php
+   foreach ($selected_teachers as $teacher) {
+       echo "<h3>$teacher</h3>";
+   }
+   ?>
+
+   <br>
+   Dear Sir/s <br>
+
+
+   1. I am directed by the Vice-Chancellor to invite you jointly to act as a Board of paper setter and Examiners in <?php echo "<b>$selected_sub </b>" ?> - Practicals - at<?php echo $_POST['exam']; ?>which will commence on <?php echo $finalDate; ?> next. <br><br>
+
+   2. <?php echo $_POST['convener']; ?> has been appointed as Convener on the Board and you are requested to communicate with him in regard to all matters pertaining to your work as a member of the said Board.<br><br>
+
+   3. The pamphlet showing the scale of remuneration sanctioned by the Syndicate and the copy of the pamphlet showing the instructions to Paper setters and Examiners is enclosed herewith.<br><br>
+
+   4. I am to request you to please send Your acceptance or otherwise to this invitation, by return of post.<br><br>
+
+   5. After once accepting the invitation, if due to some unavoidable circumstances your are not in a position to do your work as paper-setter/examiner you are requested to inform me at least 15 clear days before the test date fixed for drawing the question paper/commencement of the examination.<br><br>
+
+   6. Other enclosures : syllabus, last year’s question papers, circulars, different types of forms slips, covers are sent to you.<br><br>
+
+   7. In case of your inability to accept this invitation please do return the enclosures to this office confidentially. <br><br>
+
+   8. As per guidelines of Gujarat Government Resolution (Education) Department, Gujarat Ordinance No. – 2 of 2003 dated the 26th June 2003), if you are attained the age of 62 years completed during the examination/examining time of before, please treat this invitation ac cancelled.<br><br>
+
+   9. You are requested to download related syllabus from the following weblink:
+   http://spuvvn.edu/students_corner/syllabi <br><br>
+
+   10. You are requested to submit papers before five days of commencement of Examination. <br><br>
+
+   Encl. : Scale of Remunerations and Instructions.
+   to, Paper-Setters and Examiners.
+   <br><br>
+
+   QUESTION PAPER IS/ARETO BE SETTLED BY CORRESPONDENCE ONLY WHERE THERE IS/ARE EXTERNAL EXAMINERS APPOINTED ON THE BOARD.
+
+   Yours faithfully <br>
+
+
+
+   I/C Director<br>
+   Department of Computer Science, <br>
+   S. P. University, V V Nagar.<br>
+   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+   NOTE : it is decided to cut 5% of the total remuneration earned by an Examiner, as Contribution towards Teacher’s Welfare Fund.
+</div>
