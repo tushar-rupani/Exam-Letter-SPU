@@ -6,4 +6,64 @@
     height: 150px;
     width: 200px;
 }
+body{
+    background-color: #f4f4f4;
+}
+form{
+    background-color: white;
+    padding: 15px 10px;
+    width: 50%;
+    box-shadow: 10px 20px 10px 5px rgb(0, 0, 0, 0.1) ;
+}
+label{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="checkbox"]{
+    accent-color: red;
+    margin: 10px;
+}
+
+input[type="date"]{
+    width: 50%;
+    height: 40px;
+}
+select{
+    width: 50%;
+    height: 40px;
+}
+input[type="submit"]{
+    width: 50%;
+    height: 40px;
+    border: none;
+    background-color: rgba(39, 47, 84, 1);
+    color: white;
+    border-radius: 5px 0 5px 0 ;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgba(0,0,0);
+    
+}
+label .example{
+    font-weight: 300 !important;
+}
+span{
+    background-color: #c1b7b7;
+    padding: 2px;
+    font-weight: bolder;
+}
+
+@media (max-width: 500px) {
+    form {
+        width: 100%;
+        margin: 20px 20px;
+    }
+
+    
+    .exam-logo {
+        display: none;
+    }
+}
 
