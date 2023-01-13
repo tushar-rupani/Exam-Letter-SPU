@@ -1,4 +1,4 @@
-# exam-letter
+# Exam Order Letter Generation
 
 ## Live Demo: https://exam-offer-letter.000webhostapp.com/
 
